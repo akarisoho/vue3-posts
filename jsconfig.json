@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve", //vue3 compile option
+    "paths": {
+      "@/*":["src/*"]
+    }
+  },
+  "exclude": ["node_modules","dist"]
+}
