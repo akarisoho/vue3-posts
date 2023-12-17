@@ -32,11 +32,12 @@ import { useRoute, useRouter } from "vue-router";
 
 export default {
   setup() {
+    //vue의 내장객체 라우터 가져오기
+    const router = useRouter(); 
+    
     // @/router/index.js의 routes 객체 가져오기
     const route = useRoute();
     const id = route.params.id;
-
-    const router = useRouter(); //vue의 내장객체 라우터 가져오기
 
     const goDetailPage = () => {
       router.push({ name: "PostDetail", params: { id } });

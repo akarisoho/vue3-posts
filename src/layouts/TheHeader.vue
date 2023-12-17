@@ -17,19 +17,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <router-link class="nav-link" active-class="active" to="/"
-                >Home</router-link
-              >
+              <RouterLink class="nav-link" active-class="active" to="/">Home</RouterLink>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" active-class="active" to="/about"
-                >About</router-link
-              >
+              <RouterLink class="nav-link" active-class="active" to="/about">About</RouterLink>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" active-class="active" to="/posts"
-                >게시글</router-link
-              >
+              <RouterLink class="nav-link" active-class="active" to="/posts">게시글</RouterLink>
             </li>
             <!-- a tag는 리로딩이 일어남
               <li class="nav-item">

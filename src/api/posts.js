@@ -11,3 +11,5 @@ const posts = [
 export function getPosts(){
   return posts;
 }
+
+// https://github.com/typicode/json-server Test REST API Sample

@@ -38,7 +38,8 @@
 import { useRoute, useRouter } from "vue-router";
 export default {
   setup() {
-    const router = useRouter(); //vue의 내장객체 라우터 인스턴스 접근: 상태나 메소드 접근 가능
+    //vue의 내장객체 라우터 인스턴스 접근: 상태나 메소드 접근 가능
+    const router = useRouter(); 
     
     // 현재 활성화 된 라우트(@/router/index.js)의 정보(매개변수, 쿼리 등)에 접근 - 라우트 정보를 통해 동적인 컴포넌트 랜더링이나 조건부 랜더링 가능
     const route = useRoute();
