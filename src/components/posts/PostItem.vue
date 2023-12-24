@@ -1,15 +1,14 @@
 <template>
-  <div class="card">
-    <div class="card-header">Featured</div>
-    <div class="card-body">
+  <AppCard>
       <h5 class="card-title">{{ title }}</h5>
       <p class="card-text">{{ content }}</p>
       <p class="text-muted">{{ createdAt }}</p>
-    </div>
-  </div>
+  </AppCard>
 </template>
 
 <script>
+import AppCard from "@/components/AppCard.vue";
+
 export default {
   props: {
     title: {
@@ -22,6 +21,9 @@ export default {
     createdAt: {
       type: [String, Date, Number],
     },
+  },
+  components: {
+    AppCard,
   },
   setup() {
     return {};

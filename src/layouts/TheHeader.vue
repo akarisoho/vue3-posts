@@ -25,6 +25,9 @@
             <li class="nav-item">
               <RouterLink class="nav-link" active-class="active" to="/posts">게시글</RouterLink>
             </li>
+            <li class="nav-item">
+              <RouterLink class="nav-link" active-class="active" to="/nested">Nested</RouterLink>
+            </li>
             <!-- a tag는 리로딩이 일어남
               <li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="/">Home</a>
